@@ -1,0 +1,5 @@
+__pycache__/
+partidas/
+parametros.py 
+tablero.py
+puntajes.txt

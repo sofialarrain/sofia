@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1135</width>
+    <height>682</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1135</width>
+    <height>682</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1135</width>
+    <height>682</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Ventana espera</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>1135</width>
+     <height>682</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1135</width>
+     <height>682</height>
+    </size>
+   </property>
+   <widget class="QLabel" name="fondo">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1135</width>
+      <height>685</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1135</width>
+      <height>685</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>1135</width>
+      <height>685</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../sprites/background/index3.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nombre_oponente">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>270</y>
+      <width>291</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(203, 203, 203, 180);
+font: 75 16pt &quot;Segoe UI Variable Display Semib&quot;;
+color: rgb(255, 255, 255);
+border-radius: 20px;</string>
+    </property>
+    <property name="text">
+     <string>Esperando oponente...</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="boton_volver">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>480</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(154, 156, 183, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../sprites/background/back_button.png</normaloff>../sprites/background/back_button.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>171</width>
+      <height>71</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nombre_jugador">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>270</y>
+      <width>291</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(203, 203, 203, 180);
+font: 75 16pt &quot;Segoe UI Variable Display Semib&quot;;
+color: rgb(255, 255, 255);
+border-radius: 20px;</string>
+    </property>
+    <property name="text">
+     <string>Nombre jugador</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_jugador_1">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>190</y>
+      <width>221</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 75 20pt &quot;Segoe UI Variable Display Semib&quot;;</string>
+    </property>
+    <property name="text">
+     <string>OPONENTE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_jugador_2">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>190</y>
+      <width>221</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 75 20pt &quot;Segoe UI Variable Display Semib&quot;;</string>
+    </property>
+    <property name="text">
+     <string>JUGADOR</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="segundos">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>130</y>
+      <width>71</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgba(255, 170, 0, 180);
+font: 75 30pt &quot;Segoe UI Variable Display Semib&quot;;
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
